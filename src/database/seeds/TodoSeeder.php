@@ -24,7 +24,7 @@ class TodoSeeder extends Seeder
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
-        ];
+        ];log()
         DB::table('todos')->insert($testData);
     }
 }
